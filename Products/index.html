@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripathi Kingdom </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Store</h1>
+    </header>
+    <section id="products">
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>$10.00</p>
+            <button onclick="addToCart('Product 1', 10.00)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>$20.00</p>
+            <button onclick="addToCart('Product 2', 20.00)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Product 3">
+            <h2>Product 3</h2>
+            <p>$30.00</p>
+            <button onclick="addToCart('Product 3', 30.00)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product4.jpg" alt="Product 4">
+            <h2>Product 4</h2>
+            <p>$40.00</p>
+            <button onclick="addToCart('Product 4', 40.00)">Add to Cart</button>
+        </div>
+    </section>
+    <section id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="total">0.00</span></p>
+    </section>
+    <footer>
+        <h2>Founder</h2>
+        <div class="founders">
+            <img src="founder1.jpg" alt="Founder 1">
+            
+           
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
