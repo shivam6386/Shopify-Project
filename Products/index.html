@@ -4,36 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tripathi Kingdom </title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Welcome to Tripathi Villa</h1>
+    </header>
+    <section id="hero">
+        <img src="villa.jpg" alt="Tripathi Villa">
+    </section>
+    <section id="about">
+        <h2>Founder</h2>
+        <div class="founders">
+            <img src="founder1.jpg" alt="Founder 1">
+            
+           
+        </div>
+        <h2>About the Founder</h2>
+        <p>Tripathi Villa was founded by the Tripathi family with a vision to provide the best quality carpets to enhance the beauty of your home.</p>
+    </section>
+
     <header>
         <h1>Welcome to Our Store</h1>
     </header>
     <section id="products">
         <div class="product">
-            <img src="product1.jpg" alt="Product 1">
+            <img src="carpet1.jpg" alt="Product 1">
             <h2>Product 1</h2>
             <p>$10.00</p>
+            <a href="category1.html">View Products</a>
             <button onclick="addToCart('Product 1', 10.00)">Add to Cart</button>
         </div>
         <div class="product">
-            <img src="product2.jpg" alt="Product 2">
+            <img src="carpet2.jpg" alt="Product 2">
             <h2>Product 2</h2>
             <p>$20.00</p>
+            <a href="category2.html">View Products</a>
             <button onclick="addToCart('Product 2', 20.00)">Add to Cart</button>
         </div>
         <div class="product">
-            <img src="product3.jpg" alt="Product 3">
+            <img src="carpet3.jpg" alt="Product 3">
             <h2>Product 3</h2>
             <p>$30.00</p>
             <button onclick="addToCart('Product 3', 30.00)">Add to Cart</button>
+            <a href="category3.html">View Products</a>
         </div>
         <div class="product">
-            <img src="product4.jpg" alt="Product 4">
+            <img src="carpet4.jpg" alt="Product 4">
             <h2>Product 4</h2>
             <p>$40.00</p>
             <button onclick="addToCart('Product 4', 40.00)">Add to Cart</button>
+            <a href="category4.html">View Products</a>
         </div>
     </section>
     <section id="cart">
@@ -42,12 +63,7 @@
         <p>Total: $<span id="total">0.00</span></p>
     </section>
     <footer>
-        <h2>Founder</h2>
-        <div class="founders">
-            <img src="founder1.jpg" alt="Founder 1">
-            
-           
-        </div>
+        
     </footer>
     <script src="script.js"></script>
 </body>
